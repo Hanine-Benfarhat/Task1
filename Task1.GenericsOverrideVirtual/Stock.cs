@@ -1,8 +1,4 @@
 ﻿namespace Task1.GenericsOverrideVirtual;
-
-using System;
-using System.Collections.Generic;
-
 //Type Generique T 
 public class Stock<T>
 {
