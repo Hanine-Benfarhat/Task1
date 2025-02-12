@@ -7,4 +7,10 @@ public class ClientVIP : Client
     {
         Console.WriteLine($"Client VIP : {Nom}");
     }
+
+    public override void Register()
+    {
+        
+    }
+
 }

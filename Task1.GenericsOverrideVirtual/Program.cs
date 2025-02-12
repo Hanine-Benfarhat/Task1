@@ -13,7 +13,7 @@ Console.WriteLine();
 Stock<Client> StockClient = new Stock<Client>();
 var client1 = new ClientVIP() { Nom = "Rim" };
 client1.AfficherClient();
-var client2 = new Client() { Nom = "Ahmed" };
+var client2 = new ClientVIP() { Nom = "Ahmed" };
 client2.AfficherClient();
 Console.WriteLine();
 StockClient.Ajouter(client1);
